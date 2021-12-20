@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.bg-rainbow-stripes {
+  background: repeating-linear-gradient(
+    120deg,
+    #ff0000,
+    #ff0000 20px,
+    #ffcc00 20px,
+    #ffcc00 40px,
+    #ffff00 40px,
+    #ffff00 60px,
+    #00ff00 60px,
+    #00ff00 80px,
+    #0000ff 80px,
+    #0000ff 100px,
+    #ff00ff 100px,
+    #ff00ff 120px
+  );
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
