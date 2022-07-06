@@ -23,6 +23,11 @@ const USERS = [
     twitter: "m4r1ss4m",
     email: "marissa",
   },
+  {
+    name: "Ezgi",
+    twitter: "ezgiburglar69",
+    email: "ezgi",
+  },
 ];
 
 function App() {
